@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.main{
+    overflow-x:hidden;
+}
+
+.content{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: linear-gradient( rgba(5,214,159,1), rgba(255,209,102,0.10000000149011612));
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.title{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #26547c;
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.input{
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.input:hover{
+    border: 2px solid #26547c;
+}
+
+#full-name, #address, #username, #email, #password, #confirmPassword{
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    height: 2em;
+    width: 10em;
+    background-color: #26547c;
+    color: #fff;
+    border-radius: 16px;
+    margin-bottom: 2%;
+}
+
+.button button:hover{
+    border: 2px solid #26547c;
+    background-color: #3e77b6;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
